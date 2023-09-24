@@ -24,7 +24,6 @@ public class ThirdHomework {
         }else{
             System.out.println("Odd number");
         }
-        scanner.close();
     }
 
     public static void secondTask(){
@@ -38,7 +37,6 @@ public class ThirdHomework {
         } else{
             System.out.println("Cold");
         }
-        scanner.close();
     }
 
     public static void thirdTask(){
