@@ -1,3 +1,5 @@
+package homework;
+
 public class SecondHomeWork {
     public static void main(String[] args) {
         System.out.print("Task 1 -> ");
