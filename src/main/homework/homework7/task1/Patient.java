@@ -4,13 +4,6 @@ public class Patient {
     private int treatmentPlan;
     private Doctor doctor;
 
-    public Patient() {
-    }
-
-    public Patient(int treatmentPlan) {
-        this.treatmentPlan = treatmentPlan;
-    }
-
     public int getTreatmentPlan() {
         return treatmentPlan;
     }

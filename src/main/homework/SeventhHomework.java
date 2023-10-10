@@ -28,9 +28,9 @@ public class SeventhHomework {
         Dentist dentist = new Dentist();
         therapist.setDoctors(surgeon, dentist);
 
-        Patient patientOne = new Patient(1);
-        Patient patientTwo = new Patient(2);
-        Patient patientThree = new Patient(3);
+        Patient patientOne = new Patient();
+        Patient patientTwo = new Patient();
+        Patient patientThree = new Patient();
 
         therapist.chooseDoctor(patientOne);
         patientOne.getTreatment();
