@@ -21,7 +21,6 @@ public class HomeworkThirteen {
             fw.flush();
         } catch (IOException e) {
             System.out.println("File not found");
-            ;
         }
 
         /*
@@ -45,9 +44,7 @@ public class HomeworkThirteen {
             DocumentWriter documentWriter = new DocumentWriter(scanner.nextLine());
             documentWriter.getReportFiles();
         } catch (IOException e) {
-            System.out.println("File not found. Invalid path.");;
+            System.out.println("File not found. Invalid path.");
         }
-
-
     }
 }
