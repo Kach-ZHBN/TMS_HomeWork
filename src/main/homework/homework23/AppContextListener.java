@@ -6,7 +6,7 @@ import jakarta.servlet.annotation.WebListener;
 
 import java.time.LocalDateTime;
 
-@WebListener
+//@WebListener
 public class AppContextListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {

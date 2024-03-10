@@ -6,7 +6,7 @@ import jakarta.servlet.annotation.WebListener;
 
 import java.time.LocalDateTime;
 
-@WebListener
+//@WebListener
 public class AppRequestListener implements ServletRequestListener {
     @Override
     public void requestDestroyed(ServletRequestEvent sre) {

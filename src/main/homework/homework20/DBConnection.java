@@ -14,9 +14,10 @@ public class DBConnection {
         final String PASSWORD = "postgres";
 
         try {
+            Class.forName("org.postgresql.Driver").newInstance();
             this.connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
-        } catch (SQLException e) {
+        } catch (SQLException | ClassNotFoundException | InstantiationException | IllegalAccessException e) {
             throw new RuntimeException(e);
         }
     }
